@@ -12,8 +12,8 @@ export default function ToggleLangs() {
   return (
     <div className='container-langs'>
       <img onClick={() => toggleLang('FR')} src={FrenchFlag} alt = 'drapeaux pays'/>
-      <img onClick={() => toggleLang('EN')} src={SpanishFlag} alt = 'drapeaux pays'/>
-      <img onClick={() => toggleLang('ES')} src={EnglishFlag} alt = 'drapeaux pays'/>
+      <img onClick={() => toggleLang('ES')} src={SpanishFlag} alt = 'drapeaux pays'/>
+      <img onClick={() => toggleLang('EN')} src={EnglishFlag} alt = 'drapeaux pays'/>
     </div>
   )
 }
